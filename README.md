@@ -7,7 +7,7 @@
 • Integrated OpenAI's GPT-3 open-source language model API using python to generate contextual responses
 
 **Front End**  
-• Programmed using HTML and CSS
+• Programmed using HTML and CSS  
 • Used Flask to return HTML and CSS as the web application
 
 ** **
