@@ -21,8 +21,8 @@
 3. Run the following in MySQL Workbench to create a database  
 `CREATE DATABASE messages;`  
 `CREATE TABLE convo (ID int primary key, question VARCHAR(3000), response VARCHAR(3000));`
-4. Within MySQL Workbench, connect to the messages database. 
-5. Set ID to auto increment and apply.
-6. Generate your own API key from OpenAI
-7. Run the python file
-8. Use browser to connect to `http://127.0.0.1:5000/`
+4. Within MySQL Workbench, connect to the `messages` database
+5. Edit the convo table to set ID to auto increment and click apply
+6. Generate your own API key from OpenAI and replace it in the code within the `getvalue()` function  
+7. Run the Python file  
+8. Use browser to connect to `http://127.0.0.1:5000/` to interact with chatbot
