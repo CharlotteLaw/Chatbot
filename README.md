@@ -25,4 +25,14 @@
 5. Edit the convo table to set ID to auto increment and click apply
 6. Generate your own API key from OpenAI and replace it in the code within the `getvalue()` function  
 7. Run the Python file  
-8. Use browser to connect to `http://127.0.0.1:5000/` to interact with chatbot
+8. Use browser to connect to `http://127.0.0.1:5000/` to interact with chatbot  
+
+
+
+** **
+  
+    
+    
+# Program Preview
+
+<img width="1435" alt="image" src="https://github.com/CharlotteLaw/chatbot/assets/69742430/155f7055-6bd4-4b3e-a5dd-a167f23e7c3d">
