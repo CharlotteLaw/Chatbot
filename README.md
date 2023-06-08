@@ -25,3 +25,4 @@
 5. Set ID to auto increment and apply.
 6. Generate your own API key from OpenAI
 7. Run the python file
+8. Use browser to connect to `http://127.0.0.1:5000/`
