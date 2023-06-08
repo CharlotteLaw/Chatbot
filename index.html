@@ -6,15 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style> 
+        form { display: flex; }
+        
+        input[type=text] {
+          flex-grow: 1;
+          width: 90%;
+          box-sizing: border-box;
+          border: 2px solid #597fc0;
+          border-radius: 4px;
+          font-size: 14px;
+          background-color: white;
+          padding: 8px;
+          font-family: 'Roboto';
+        }
+
+        .button {
+        background: #597fc0;
+        border-radius: 8px;
+        color: white;
+        padding: 7px 11px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 2px 2px;
+        cursor: pointer;
+        font-family: 'Roboto';
+        width: 10%;
+        }
+
+        .center {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        font-family: 'Roboto';
+        }
+
+        .centertext {
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: bold;
+        }
+
+        .centertext2 {
+        text-align: center;
+        font-family: 'Roboto';
+        color: rgb(96, 96, 96);
+        }
+
+        body {
+        background-color: rgb(229, 242, 254);
+        font-family: 'Roboto';
+        }
+        .card {
+        transition: 0.3s;
+        background-color: white;
+        padding: 30px;
+        border-radius: 25px;
+        font-family: 'Roboto';
+        }
+
+        </style>
 </head>
+<br>    
+<br>    
+<div class="center">
+
 <body>
-<h1>Your Personal Chatbot/Assistant</h1>
-<form name="passdata" action="." method="post">
-    <h3>Say something to your chatbot:</h3>
-    <input type="text" name="message">
-    <input type="submit" value="send">
-</form>
-<p>You: {{m}}</p>
-<p>Chatbot: {{r}}</p>
+
+<div class="card">
+
+<h1 class="centertext">Your Personal Chatbot & Assistant</h1>
+<h3 class="centertext2">Say something to your chatbot!</h3>
+<br><br>
+
+    <form name="passdata" action="." method="post">
+        
+        <input type="text" name="message">
+        <input type="submit" class="button" value="send">
+    </form>
+</div>
+
+<br>
+<br>
+<div class="card">
+    <p>You: {{m}}</p>
+    <p>Chatbot: {{r}}</p>
+</div>
+
+
 </body>
+
+</div>
 </html>
