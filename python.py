@@ -22,7 +22,6 @@ for x in mycursor:
 #mycursor.execute("CREATE DATABASE messages")
 #mycursor.execute("CREATE TABLE Conversations (question VARCHAR(300), response VARCHAR(300))")
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -31,7 +30,7 @@ def index():
 def getvalue():
     message = request.form['message']
     askprompt = "You are an informative, happy, and helpful personal assistant/ AI chatbot. Chat with the user or answer their questions. The user says: " + message
-    openai.api_key = "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"
+    openai.api_key = "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"
     response = openai.Completion.create(engine="text-davinci-001", prompt=askprompt, max_tokens=200)
     resp = response.choices[0].text
     print(response)
@@ -43,25 +42,3 @@ def getvalue():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-#openai.api_key = "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"
-
-#askprompt = input("Say something to the chatbot: ")
-#askprompt = message
-
-#response = openai.Completion.create(engine="text-davinci-001", prompt=askprompt, max_tokens=6)
-
-#print(response)
-#print(response.choices[0].text)
-# THE ABOVE WORKS
-#print(response.choices[2].message)
-
-#print(response[0][4])
-
-#import os
-#import openai
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-
-
-
-#print(completion)
