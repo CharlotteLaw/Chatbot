@@ -29,8 +29,12 @@
 
 
 
-** **
+
   
+**Disclaimer**  
+As of now, I have implemented GPT-3 as an open-source language model and created a chatbot web application with a frontend and backend using the GPT-3 API. With more time, I would like to look into setting up a suitable deep learning framework with GPT-3. 
+
+** **
     
     
 # Program Preview
