@@ -6,7 +6,7 @@
 • Integrated MySQL to create a database to store user's messages and the chatbot's responses  
 • Integrated OpenAI's GPT-3 open-source language model API using python to generate contextual responses
 
-**Front ENd**  
+**Front End**  
 • Programmed using HTML and CSS  
 • Used Flask to return HTML and CSS as the web application
 
