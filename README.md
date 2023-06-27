@@ -17,7 +17,7 @@
 # How To Run The Program
 
 1. Download the Python, CSS, and HTML files  
-2. Download MySQL Workbench `https://dev.mysql.com/downloads/workbench/`
+2. Download MySQL Workbench => `https://dev.mysql.com/downloads/workbench/`
 3. Run the following in MySQL Workbench to create a database  
 `CREATE DATABASE messages;`  
 `CREATE TABLE convo (ID int primary key, question VARCHAR(3000), response VARCHAR(3000));`
