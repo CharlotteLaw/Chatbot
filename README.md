@@ -1,7 +1,7 @@
 # Chatbot | How It Works
 
 **Back End**  
-• Programmed using Python 3
+• Programmed using Python 3  
 • Used Flask as a backend framework to retrieve user input and display chatbot output   
 • Integrated MySQL to create a database to store user's messages and the chatbot's responses  
 • Integrated OpenAI's GPT-3 open-source language model API using python to generate contextual responses
