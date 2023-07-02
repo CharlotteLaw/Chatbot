@@ -4,7 +4,7 @@ A personal chatbot and online assistant developed utilizing the GPT-3 open-sourc
 ## How it works
 
 **Back End**  
-* Programmed using Python 3  
+* Programmed using Python 
 * Used [Flask](https://flask.palletsprojects.com/) as a backend framework to retrieve user input and display chatbot output
 * Integrated [MySQL](https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html) to create a database to store user's messages and the chatbot's responses
 * Integrated [OpenAI's GPT-3](https://platform.openai.com/docs/guides/gpt) open-source language model API using python to generate contextual responses  
