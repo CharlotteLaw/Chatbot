@@ -1,33 +1,40 @@
-
+# Chatbot
+A personal chatbot and online assistant developed utilizing the GPT-3 open-source language model. 
 
 ## How it works
 
 **Back End**  
-• Programmed using Python 3  
-• Used Flask as a backend framework to retrieve user input and display chatbot output   
-• Integrated MySQL to create a database to store user's messages and the chatbot's responses  
-• Integrated OpenAI's GPT-3 open-source language model API using python to generate contextual responses
+* Programmed using Python 3  
+* Used [Flask](https://flask.palletsprojects.com/) as a backend framework to retrieve user input and display chatbot output
+* Integrated [MySQL](https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html) to create a database to store user's messages and the chatbot's responses
+* Integrated [OpenAI's GPT-3](https://platform.openai.com/docs/guides/gpt) open-source language model API using python to generate contextual responses  
 
 **Front End**  
-• Programmed using HTML and CSS  
-• Used Flask to return HTML and CSS as the web application
+* Programmed using HTML and CSS  
+* Used [Flask](https://flask.palletsprojects.com/) to return HTML and CSS as the web application
 
 
   
     
     
-## Running Locally
+## How to Run Locally
 
-1. Download the Python, CSS, and HTML files  
-2. Download MySQL Workbench => `https://dev.mysql.com/downloads/workbench/`
-3. Run the following in MySQL Workbench to create a database  
-`CREATE DATABASE messages;`  
-`CREATE TABLE convo (ID int primary key, question VARCHAR(3000), response VARCHAR(3000));`
-4. Within MySQL Workbench, connect to the `messages` database
-5. Edit the convo table to set ID to auto increment and click apply
-6. Generate your own API key from OpenAI and replace it in the code within the `getvalue()` function  
-7. Run the Python file  
-8. Use browser to connect to `http://127.0.0.1:5000/` to interact with chatbot  
+1. Clone this repo
+2. Download [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+3. Run the following in MySQL Workbench to create a database
+
+
+```MySQL
+CREATE DATABASE messages
+CREATE TABLE convo (ID int primary key, question VARCHAR(3000), response VARCHAR(3000));
+```
+
+
+5. Within MySQL Workbench, connect to the `messages` database
+6. Edit the convo table to set ID to auto increment and click apply
+7. Generate your own API key from [OpenAI](https://openai.com/) and replace it in the code within the `getvalue()` function  
+8. Run `python.py`
+9. Use browser to connect to [`http://127.0.0.1:5000/`](http://127.0.0.1:5000/) to interact with chatbot  
 
 
 
