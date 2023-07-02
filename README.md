@@ -1,4 +1,6 @@
-# Chatbot | How It Works
+# Chatbot  
+
+## How it works
 
 **Back End**  
 • Programmed using Python 3  
@@ -14,7 +16,7 @@
   
     
     
-# How To Run The Program
+## How To Run The Program
 
 1. Download the Python, CSS, and HTML files  
 2. Download MySQL Workbench => `https://dev.mysql.com/downloads/workbench/`
@@ -37,6 +39,6 @@ As of now, I have implemented GPT-3 as an open-source language model and created
 ** **
     
     
-# Program Preview
+## Program Preview
 
 <img width="1435" alt="image" src="https://github.com/CharlotteLaw/chatbot/assets/69742430/155f7055-6bd4-4b3e-a5dd-a167f23e7c3d">
