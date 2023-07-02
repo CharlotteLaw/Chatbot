@@ -16,7 +16,7 @@
   
     
     
-## How To Run The Program
+## Running Locally
 
 1. Download the Python, CSS, and HTML files  
 2. Download MySQL Workbench => `https://dev.mysql.com/downloads/workbench/`
